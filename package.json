@@ -8,6 +8,7 @@
   },
   "scripts": {
     "analyze": "node --import tsx scripts/analyze.ts",
+    "eval:run": "node --import tsx scripts/run-evals.ts",
     "export:pdf": "node --import tsx scripts/export-pdf.ts",
     "test": "node --import tsx --test scripts/*.test.ts",
     "typecheck": "tsc --noEmit"

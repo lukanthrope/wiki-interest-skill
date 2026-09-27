@@ -3,3 +3,5 @@ output/
 coverage/
 .DS_Store
 *.log
+.env
+eval-workspace/
