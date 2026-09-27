@@ -1,0 +1,35 @@
+{
+  "topics": [
+    {
+      "id": "astronomy",
+      "label": "Астрономія",
+      "articles": [
+        {
+          "language": "en",
+          "title": "Astronomy"
+        },
+        {
+          "language": "uk",
+          "title": "Астрономія"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "label": "Фізика",
+      "articles": [
+        {
+          "language": "en",
+          "title": "Physics"
+        },
+        {
+          "language": "uk",
+          "title": "Фізика"
+        }
+      ]
+    }
+  ],
+  "start": "2024-01",
+  "end": "2024-12",
+  "granularity": "monthly"
+}

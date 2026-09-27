@@ -1,0 +1,28 @@
+{
+  "name": "wiki-interest-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "analyze": "node --import tsx scripts/analyze.ts",
+    "export:pdf": "node --import tsx scripts/export-pdf.ts",
+    "test": "node --import tsx --test scripts/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/pdfkit": "^0.17.6",
+    "@types/svg-to-pdfkit": "^0.1.4",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "dependencies": {
+    "dejavu-fonts-ttf": "^2.37.3",
+    "marked": "^18.0.14",
+    "pdfkit": "^0.20.2",
+    "svg-to-pdfkit": "^0.1.8"
+  }
+}
